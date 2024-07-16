@@ -1,0 +1,97 @@
+.links {
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://api.inovepublicidade.pt/vc_eletricar/images/BG_CAR.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+hr {
+  color: #fff;
+}
+.links .textos {
+  width: 500px;
+  max-width: 100%;
+  padding: 50px;
+}
+
+/* .img-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  max-height: auto;
+  padding: 50px;
+} */
+
+.img-logo {
+  position: relative; /* Garante que a posição relativa da div seja referência para o posicionamento absoluto da imagem */
+  width: 300px; /* Ajuste conforme necessário */
+  height: 300px; /* Ajuste conforme necessário */
+  background-image: url("https://api.inovepublicidade.pt/vc_eletricar/images/LOGO_CAR.png");
+  background-size: 250px; /* Ajusta o tamanho da imagem para cobrir toda a div */
+  background-position: bottom; /* Posiciona a imagem no centro inferior da div */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  color: #37d702;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+h3,
+p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+p {
+  font-weight: 100;
+}
+
+.social {
+  margin: 20px 0px;
+}
+
+.social-icon {
+  padding-right: 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.social-icon svg {
+  padding: 8px;
+  fill: #0b2b55 !important;
+  /* fill: #fff !important; */
+  font-size: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.social-icon img {
+  padding: 8px;
+  fill: #0b2b55 !important;
+  /* fill: #fff !important; */
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .img-logo {
+    background-position: center; /* Posiciona a imagem no centro inferior da div */
+  }
+}
