@@ -6,6 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
   display: flex;
   flex-direction: row;
@@ -35,7 +36,8 @@ hr {
 .img-logo {
   position: relative; /* Garante que a posição relativa da div seja referência para o posicionamento absoluto da imagem */
   width: 300px; /* Ajuste conforme necessário */
-  height: 300px; /* Ajuste conforme necessário */
+  padding-top: 200px;
+  height: 100px; /* Ajuste conforme necessário */
   background-image: url("https://api.inovepublicidade.pt/vc_eletricar/images/LOGO_CAR.png");
   background-size: 250px; /* Ajusta o tamanho da imagem para cobrir toda a div */
   background-position: bottom; /* Posiciona a imagem no centro inferior da div */
