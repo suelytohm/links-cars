@@ -30,7 +30,7 @@ export default function Main() {
         <div className="social">
           <Link
             className="social-icon"
-            href="https://www.facebook.com/search/top?q=vc%20eletricar"
+            href="https://www.facebook.com/people/VC-Eletricar/61560709795449/"
             target="_blank"
             passHref={true}
           >
@@ -46,7 +46,7 @@ export default function Main() {
           </Link>
           <Link
             className="social-icon"
-            href="https://www.instagram.com/vceletricar/"
+            href="https://api.whatsapp.com/send?phone=351969836795"
             target="_blank"
             passHref={true}
           >
