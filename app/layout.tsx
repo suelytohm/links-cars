@@ -19,6 +19,35 @@ export default function RootLayout({
     <html lang="pt">
       <head>
         <link rel="icon" href="/favicon2.png" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content={
+            "VC Eletricar | Carros Elétricos com o foco na Inovação e Sustentabilidade"
+          }
+        />
+        <meta
+          property="og:description"
+          content={"Carros Elétricos com o foco na Inovação e Sustentabilidade"}
+        />
+        <meta property="og:image" content={"/favicon2.png"} />
+        <meta property="og:url" content={"https://www.vceletricar.pt/"} />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={
+            "VC Eletricar | Carros Elétricos com o foco na Inovação e Sustentabilidade"
+          }
+        />
+        <meta
+          name="twitter:description"
+          content={"Carros Elétricos com o foco na Inovação e Sustentabilidade"}
+        />
+        <meta name="twitter:image" content={"/favicon2.png"} />
+        <meta property="twitter:url" content={"https://www.vceletricar.pt/"} />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
