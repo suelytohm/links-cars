@@ -68,7 +68,7 @@ export default function Main() {
         </div>
 
         <div>
-          <h3>924 390 045</h3>
+          <h3>924 390 450</h3>
           <p>R. Cabine 6 B, 2710-089 Sintra</p>
         </div>
       </div>
